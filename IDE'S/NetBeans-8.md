@@ -1,38 +1,61 @@
 <div align="justify">
 
-# Instalación del IDE Netbeans 8
+# Instalación de NetBeans 8
 
-  NetBeans es un IDE popular para desarrollar aplicaciones Java. Esto permite desarrollar aplicaciones a partir de un conjunto de componentes de software modulares llamados módulos. NetBeans está disponible para ejecutarse en sistemas operativos populares como Windows, macOS, Linux.
-
-<div align="center">
-  <img src="https://ubunlog.com/wp-content/uploads/2018/05/about-NetBeans-IDE-8-2.png.webp" width="250px">
+  <div align="center">
+  <img src="imagenes/netbeans8/logo.png" width="150px">
 </div>
 
-Recuerda que para la instalación de __Netbeans__ debes de tener instalado __Java__. Los pasos para realizar su instalación y configuración se encuentra en el siguiente [enlace](tarea-jdk.md).
+## Prerrequisitos 
 
-Para verificarlo recuerda ejecutar el siguiente enlace:
+Para instalar NetBeans primero necesitamos haber instalado Java. Para comprobarlo usamos el siguiente comando: 
 
 ```console
 java -version
+``` 
+  <img src="imagenes/netbeans8/NetBeans8-1.png" width="500px">
+
+## Descargar la versión 
+
+Descargar la versión deseada en este[ enlace.](https://www.oracle.com/technetwork/java/javase/downloads/jdk-netbeans-jsp-3413139-esa.html) Hemos de descargar la versión jdk-8u111- nb-8\_2-linux-x64.sh, aceptando Accept License Agreement. 
+
+<img src="imagenes/netbeans8/NetBeans8-2.png" width="500px">
+
+## Comenzar la Instalación 
+
+Una vez que se complete la descarga, navegue hasta el directorio donde se ha descargado el instalador de NetBeans IDE con: 
+
+  ```console
+cd /ruta/de/ejemplo
+  ```
+
+<img src="imagenes/netbeans8/NetBeans8-3.png" width="700px">
+
+y ejecute el siguiente comando: 
+
+  ```console
+chmod +x jdk-8u111-nb-8\_2-linux-x64.sh ./jdk-8u111-nb-8\_2-linux-x64.sh 
 ```
+  
 
+<img src="imagenes/netbeans8/NetBeans8-4.png" width="500px">
 
-## Pasos
+## Instalador
 
-  Vamos a realizar la instalación de NetBeans a través de línea de comandos. Para ello vamos a seguir los siguientes pasos:
-  - Descargar la versión deseada en este [enlace](https://www.oracle.com/technetwork/java/javase/downloads/jdk-netbeans-jsp-3413139-esa.html). Hemos de descargar la versión __jdk-8u111-nb-8_2-linux-x64.sh__, aceptando _Accept License Agreement_.
-  - Una vez que se complete la descarga, navegue hasta el directorio donde se ha descargado el instalador de NetBeans IDE y ejecute el siguiente comando para hacer ejecutable el script del instalador y comenzar a instalarlo.
+Tras poner el último comando se abrirá la ventana de “bienvenida” del instalador, en la que hay que seguir los pasos de una instalación típica (darle next, personalizar si deseamos las rutas de instalación, etc) 
 
-```console
-chmod +x jdk-8u111-nb-8_2-linux-x64.sh
-./jdk-8u111-nb-8_2-linux-x64.sh
-```
+<img src="imagenes/netbeans8/NetBeans8-5.png" width="500px">
 
-  - Después de ejecutar la secuencia de comandos del instalador anterior, la “Página de bienvenida” del instalador se mostrará de la siguiente manera, haga clic en Siguiente para continuar (o personalice su instalación haciendo clic en Personalizar) para seguir el asistente de instalación.
-  -  Luego lea y acepte los términos del acuerdo de licencia, y haga clic en Next para continuar.
-  - A continuación, seleccione la carpeta de instalación de NetBeans IDE 8.2 en la siguiente interfaz, luego haga clic en Next para continuar.
-  - También seleccione la carpeta de instalación del servidor GlassFish en la siguiente interfaz, luego haga clic en Next para continuar.
-  - A continuación, active las actualizaciones automáticas de los complementos instalados a través de la casilla de verificación en la siguiente pantalla que muestra el resumen de la instalación, y haga clic en Instalar para instalar el IDE de NetBeans y los tiempos de ejecución.
-  - Cuando se complete la instalación, haga clic en Finish y reinicie la máquina para disfrutar de NetBeans IDE.
-  - Una vez seguidos estos pasos has finalizado la instalación de _NetBeans 8 en Linux_.
+Es recomendable no cambiar de ruta para facilitar el proceso 
+
+<img src="imagenes/netbeans8/NetBeans8-6.png" width="500px">
+
+<img src="imagenes/netbeans8/NetBeans8-7.png" width="500px">
+
+Importante dejar marcada la casilla de “Check for Updates” para actualizar ![](Aspose.Words.0d0e11ff-51a8-430b-b1d9-b1084f0738e0.003.png)automáticamente los complementos instalados 
+
+<img src="imagenes/netbeans8/NetBeans8-8.png" width="500px">
+
+Cuando se complete la instalación, haga clic en “Finish” y reinicie para disfrutar de NetBeans IDE 
+  
   </div>
