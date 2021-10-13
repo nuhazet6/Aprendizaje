@@ -11,7 +11,7 @@
 
 ### Prerrequisitos
 
-Para instalar NetBeans primero necesitamos haber instalado Java. Los pasos para realizar su instalación y configuración se encuentra en el siguiente [https://github.com/nuhazet6/jdk/blob/4543e358060c3cdcf33c71454588e322a8b98518/Instalaci%C3%B3nJdk.md](tarea-jdk.md).
+Para instalar NetBeans primero necesitamos haber instalado Java. Los pasos para realizar su instalación y configuración se encuentra en el siguiente [enlace](https://github.com/nuhazet6/jdk/blob/4543e358060c3cdcf33c71454588e322a8b98518/Instalaci%C3%B3nJdk.md).
 
   Para verificarlo usamos el siguiente comando:
 
