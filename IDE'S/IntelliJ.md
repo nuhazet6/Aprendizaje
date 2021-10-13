@@ -3,7 +3,7 @@
 # Instalación del IDE IntelliJ IDEA
 
 <div align="center">
-  <img src="http://blog.chuidiang.org/wp-content/uploads/6eqoPNuy.jpg" width="150px">
+  <img src="imagenes/Intellij/logo.png" width="150px">
 </div>
 
 
