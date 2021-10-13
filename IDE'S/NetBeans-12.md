@@ -1,10 +1,9 @@
 <div align="justify">
 
-# Instalación del IDE Netbeans 12
-
+# Instalación del IDE IntelliJ IDEA
 
 <div align="center">
-  <img src="" width="250px">
+  <img src="imagenes/Intellij/logo.png" width="150px">
 </div>
 
 
@@ -12,36 +11,42 @@
 
 ### Prerrequisitos
 
-  Para instalar NetBeans primero necesitamos haber instalado Java. Si aún no lo has instalado puedes hacerlo en el siguiente enlace: [Instalación Java](https://github.com/nuhazet6/jdk/blob/4543e358060c3cdcf33c71454588e322a8b98518/Instalaci%C3%B3nJdk.md).
+Para instalar NetBeans primero necesitamos haber instalado Java. Los pasos para realizar su instalación y configuración se encuentra en el siguiente [enlace](https://github.com/nuhazet6/jdk/blob/4543e358060c3cdcf33c71454588e322a8b98518/Instalaci%C3%B3nJdk.md).
 
-  Para verificarlo recuerda ejecutar el siguiente enlace:
+  Para verificarlo usamos el siguiente comando:
 
-  ```console
-  java -version
-  ```
+```console
+java -version
+```
+  <img src="imagenes/netbeans12/NetBeans12-1.png" width="500px">
 
 ## Instalación
 
-  Los paquetes Snap son paquetes de software universales prediseñados que se envían con las bibliotecas y dependencias requeridas por el paquete de software. Son independientes de la distribución y se pueden instalar en cualquier distribución principal de Linux. Los snaps son populares ya que no requieren ninguna dependencia durante la instalación, lo que hace que el proceso de instalación sea fluido y sin errores.
-
-  Para instalar la edición Netbeans, ejecute el siguiente comando:
+  Para instalar NeatBeans12 ejecute el siguiente comando:
 
 ```console
-sudo snap install netbeans --classic
+sudo snap install netbeans –classic
 ```
+  Cuando se termine de instalar aparecerá un mensaje indicando que se ha instalado 
+correctamente.
+  
+<img src="imagenes/netbeans12/NetBeans12-2.png" width="600px">
+  
+### Lanzamiento de IntelliJ
 
-  La instalación finalizará cuando veas el sigueinte mensaje:
-
-  ```console
-  netbeans 12.5 from Apache NetBeans✓ installed
-  ```
-
-# Ejecutando Netbeans 12
-
-  Ahora que Netbeans está instalado en su sistema Ubuntu, puede iniciarlo escribiendo netbeans en su terminal o haciendo clic en el icono de Netbeans ( Activities -> Netbeans ).
-
-  Una vez que se cargue el IDE de Netbeans, se le presentará la página de inicio.
-
+Para ejecutar NetBeans podemos hacerlo de dos formas:
+  
+1.Escribiendo netbeans en la terminal
+  
+  <img src="imagenes/netbeans12/NetBeans12-3.png" width="600px">
+  
+2. Yendo a Mostrar aplicaciones abajo a la izquierda y buscando el icono de NetBeans 
+para darle click
+  
+  <img src="imagenes/netbeans12/NetBeans12-4.png" width="600px">
+  
+  <img src="imagenes/netbeans12/NetBeans12-5.png" width="600px">
+  
 # Eliminar Netbeans
 
 __No realices este paso, es para que conozcas como se elimina__.
