@@ -7,30 +7,28 @@
 </div>
 
 
-  IntelliJ IDEA es un IDE (entorno de desarrollo integrado) de código abierto para desarrollar aplicaciones Java. Es desarrollado y mantenido por Jetbrains, una compañía también popular para desarrollar PyCharm IDE. Se estima que más del 70% de los desarrolladores de Java prefieren IntelliJ IDE sobre otros IDE como Eclipse.
-
 ## Pasos
 
 ### Prerrequisitos
 
-  Recuerda que para la instalación de __Intelij__ debes de tener instalado __Java__. Los pasos para realizar su instalación y configuración se encuentra en el siguiente [enlace](tarea-jdk.md).
+ Para instalar . Los pasos para realizar su instalación y configuración se encuentra en el siguiente [enlace](tarea-jdk.md).
 
   Para verificarlo recuerda ejecutar el siguiente enlace:
 
 ```console
 java -version
 ```
+  <img src="imagenes/Intellij/IntelliJ-1.png" width="500px">
 
 ## Instalación
-
-  Los paquetes Snap son paquetes de software universales prediseñados que se envían con las bibliotecas y dependencias requeridas por el paquete de software. Son independientes de la distribución y se pueden instalar en cualquier distribución principal de Linux. Los snaps son populares ya que no requieren ninguna dependencia durante la instalación, lo que hace que el proceso de instalación sea fluido y sin errores.
 
   Para instalar la edición Community, ejecute el siguiente comando:
 
 ```console
 sudo snap install intellij-idea-community --classic
 ```
-
+<img src="imagenes/Intellij/IntelliJ-2.png" width="600px">
+  
  Esto debería llevar unos minutos y debería continuar sin problemas.
 
 ### Lanzamiento de IntelliJ
