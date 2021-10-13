@@ -6,7 +6,7 @@
 </div>
 
 ## Introducción
-  Este repositorio esta destinado a describir la instalación de los difentes IDE´s en Ubuntu 20.04.
+  Esta carpeta está destinada a describir la instalación de los difentes IDE´s en Ubuntu 20.04.
   - [Instalación de Netbeans 8.](NetBeans-8.md)
   - [Instalación de Netbeans 12.](NetBeans-12.md)
   - [Instalación de Intelij.](IntelliJ.md)
