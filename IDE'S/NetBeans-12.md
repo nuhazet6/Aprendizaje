@@ -1,9 +1,9 @@
 <div align="justify">
 
-# Instalación del IDE IntelliJ IDEA
+# Instalación del IDE NetBeans12
 
 <div align="center">
-  <img src="imagenes/Intellij/logo.png" width="150px">
+  <img src="imagenes/netbeans12/logo.png" width="150px">
 </div>
 
 
@@ -22,7 +22,7 @@ java -version
 
 ## Instalación
 
-  Para instalar NeatBeans12 ejecute el siguiente comando:
+  Para instalar NetBeans12 ejecute el siguiente comando:
 
 ```console
 sudo snap install netbeans –classic
@@ -32,7 +32,7 @@ correctamente.
   
 <img src="imagenes/netbeans12/NetBeans12-2.png" width="600px">
   
-### Lanzamiento de IntelliJ
+### Lanzamiento de NetBeans
 
 Para ejecutar NetBeans podemos hacerlo de dos formas:
   
@@ -56,3 +56,4 @@ __No realices este paso, es para que conozcas como se elimina__.
 ```console
 sudo snap remove netbeans
 ```
+</div>
