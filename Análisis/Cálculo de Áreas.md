@@ -11,7 +11,7 @@ Planteamiento de un análisis para el desarrollo de una aplicación que realice 
   
 </p>
 
-## Documento de Requisitos
+## Documentación de Requisitos
 
   
 Exponemos los requisitos mínimos para realizar la aplicación:
