@@ -27,7 +27,7 @@ Exponemos los requisitos mínimos para realizar la aplicación:
 
 
 
-## MÉTODOS
+## Métodos
 
 Métodos generales y opcionales para el funcionamiento de la aplicación:
 
