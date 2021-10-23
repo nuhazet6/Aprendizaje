@@ -7,7 +7,7 @@ Planteamiento de un análisis para el desarrollo de una aplicación que realice 
 </p>
 <p align="center">
 
-<img src="https://github.com/jdabrante/CLASES/blob/7817735d2f91f2a614913affe77c70d282722f04/1DAW/ENTORNOS/TEMA2/INFORMES/IMAGENES/68747470733a2f2f7777772e70726f6665736f72656e6c696e65612e636c2f67656f6d6574726961696d6167656e2f617265617330312e676966.gif" title="Figuras">
+<img src="Imágenes/Figuras.png" title="Figuras">
   
 </p>
 
