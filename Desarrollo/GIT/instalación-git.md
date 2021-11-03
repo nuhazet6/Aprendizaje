@@ -11,8 +11,10 @@ En esta guía, mostraremos cómo instalar y configurar Git en un servidor de Ubu
 Necesitará un servidor Ubuntu 20.04 con una cuenta de superusuario no root.
 
 Una vez que tenga el servidor y el usuario configurados, estará listo para comenzar.
+##Índice
+1.[Instalación de Git con paquetes predeterminados](#id1)
 
-## Instalación de Git con paquetes predeterminados
+## Instalación de Git con paquetes predeterminados<a name="id1"></a>
 
 La opción de instalar con paquetes predeterminados es recomendable si quiere activar y ejecutar con Git rápidamente, si prefiere una versión estable ampliamente utilizada o si no busca las funciones más recientes disponibles. Si busca la versión más reciente, debería ir directamente a la sección sobre la instalación desde la fuente.
 
