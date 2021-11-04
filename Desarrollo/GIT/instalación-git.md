@@ -1,69 +1,44 @@
 # Tarea 1: Instalación de Git en linux
+Se mostrará cómo instalar y configurar Git en Ubuntu 21.04. Se realizará la instalación de dos maneras distintas: a través del administrador de paquetes integrado y a través de la fuente.
 
-Los sistemas de control de versiones como Git son imprescindibles para las prácticas recomendadas del desarrollo de software moderno. El control de versiones le permite realizar un seguimiento de su software a nivel de fuente. Puede rastrear cambios, volver a etapas anteriores y producir ramificaciones para crear versiones alternativas de archivos y directorios.
-
-Los archivos de muchos proyectos de software se mantienen en repositorios de Git y las plataformas como GitHub, GitLab y Bitbucket facilitan el intercambio y la colaboración en proyectos de desarrollo de software.
-
-En esta guía, mostraremos cómo instalar y configurar Git en un servidor de Ubuntu 20.04. Abordaremos la instalación del software de dos formas diferentes: a través del *administrador de paquetes integrado* y a *través de la fuente*. Cada uno de estos enfoques ofrece sus propios beneficios, dependiendo de sus necesidades específicas.
-
-## Requisitos previos
-
-Necesitará un servidor Ubuntu 20.04 con una cuenta de superusuario no root.
-
-Una vez que tenga el servidor y el usuario configurados, estará listo para comenzar.
 ## Índice
 1.[Instalación de Git con paquetes predeterminados](#id1)
+1.[Instalación desde la fuente](#id2)
+1.[Configuración de Git](#id3)
 
 ## Instalación de Git con paquetes predeterminados<a name="id1"></a>
-
-La opción de instalar con paquetes predeterminados es recomendable si quiere activar y ejecutar con Git rápidamente, si prefiere una versión estable ampliamente utilizada o si no busca las funciones más recientes disponibles. Si busca la versión más reciente, debería ir directamente a la sección sobre la instalación desde la fuente.
-
-Es probable que Git ya esté instalado en el servidor Ubuntu 20.04. Puede confirmar que ese es el caso de su servidor con el siguiente comando:
-
+1.	Primero verificamos si hay alguna versión de Git instalada escribiendo lo siguiente: 
 
 ```
-git --version
+git –version
 ```
+
+ <img src="Imágenes/1.png" alt="Imagen 1">
  
-Si obtiene un resultado similar al siguiente, significa que Git ya está instalado.
-
-__Output__
-
-```
-git version 2.25.1
-```
-
-De ser así, puede pasar a la configuración de Git, o bien si necesita una versión más actualizada, puede leer la siguiente sección sobre cómo instalar desde la fuente.
-
-Sin embargo, si no obtuvo como resultado un número de versión de Git, puede instalarlo con el administrador de paquetes predeterminado APT de Ubuntu.
-
-Primero, utilice las herramientas de administración de paquetes apt para actualizar su índice local de paquetes.
+2.	Antes de instalar Git actualizamos las herramientas de actualización de paquetes:
 
 ```
 sudo apt update
-``` 
-
-Una vez completada la actualización, puede instalar Git:
+```
+ <img src="Imágenes/2.png" alt="Imagen 1">
+ 
+3.	Una vez actualizadas, empezamos a instalar Git:
 
 ```
 sudo apt install git
-``` 
-
-Para confirmar que instaló Git correctamente, ejecute el siguiente comando y compruebe que recibe un resultado pertinente.
-
-```
-git --version
 ```
 
-__Output__
+ <img src="Imágenes/3.png" alt="Imagen 1">
+ 
+4.	Finalmente comprobamos que se haya instalado correctamente:
 
 ```
-git version 2.25.1
+git –version
 ```
 
-Una vez que instale Git correctamente, podrá pasar a la sección Configuración de Git de este tutorial para completar su configuración.
+<img src="Imágenes/4.png" alt="Imagen 1">
 
-## Instalación de Git desde la fuente
+## Instalación de Git desde la fuente<a name="id2"></a>
 
 Si busca un método más flexible para instalar Git, puede optar por compilar el software desde la fuente, lo cual explicaremos en esta sección. Esto toma más tiempo y no se mantendrá en su administrador de paquetes, pero le permitirá descargar la versión más reciente y le brindará mayor control sobre las opciones que incluya si quiere personalizarlo.
 
