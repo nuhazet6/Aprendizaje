@@ -20,7 +20,7 @@ git –version
 ```
 sudo apt update
 ```
- <img src="Imágenes/2.png" alt="Imagen 1">
+ <img src="Imágenes/2.png" alt="Imagen 2">
  
 3.	Una vez actualizadas, empezamos a instalar Git:
 
@@ -28,7 +28,7 @@ sudo apt update
 sudo apt install git
 ```
 
- <img src="Imágenes/3.png" alt="Imagen 1">
+ <img src="Imágenes/3.png" alt="Imagen 3">
  
 4.	Finalmente comprobamos que se haya instalado correctamente:
 
@@ -36,7 +36,7 @@ sudo apt install git
 git –version
 ```
 
-<img src="Imágenes/4.png" alt="Imagen 1">
+<img src="Imágenes/4.png" alt="Imagen 4">
 
 ## Instalación de Git desde la fuente<a name="id2"></a>
 
