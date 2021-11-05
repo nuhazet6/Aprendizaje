@@ -6,7 +6,7 @@ EL objetivo del siguiente archivo es documentar la manipulación básica de repo
 
 ## Requisitos previos
 
- Tener una distribución Linux, y realizar la tarea [instalación y configuración de git](../instalacion-git.md)  
+ Tener una distribución Linux, y realizar la tarea [instalación y configuración de git](../instalación-git.md)  
 
 
 ## Pasos
