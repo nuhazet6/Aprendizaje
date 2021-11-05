@@ -51,6 +51,7 @@ EL objetivo del siguiente archivo es documentar la manipulación básica de repo
 cat > indice.txt
 Capítulo 1: Instalación de Git por el alumno XXX
 Capítulo 2: Flujo de trabajo básico
+Ctrl+D
 ```
 <img src="Imágenes/4.png" alt="Imagen 4">
   
@@ -59,7 +60,6 @@ Capítulo 2: Flujo de trabajo básico
  - Volver a comprobar una vez más el estado del repositorio.
 
 ```
- Ctrl+D
  git status
  git add indice.txt
  git status
@@ -69,7 +69,7 @@ Capítulo 2: Flujo de trabajo básico
 
 ### 4.Realizando Commit´s
 
- Realizar un commit de los últimos cambios con el mensaje __Añadido índice de la asignatura DPL.__ y ver el estado del repositorio.
+ Realizamos un commit con los últimos cambios realizados y volvemos a comprobar el estado del repositario.
 
 ```
 git commit -m "Añadido índice de la asignatura DPL."
