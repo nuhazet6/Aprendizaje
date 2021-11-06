@@ -81,9 +81,11 @@ curl -o git.tar.gz https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.29
 
 <img src="Imágenes/9.png" alt="Imagen 9">
 5.	El error se debe a que tenemos que instalar el curl para usar el comando “curl” así que lo instalamos:
+
 ```
 sudo snap install curl
 ```
+
 <img src="Imágenes/10.png" alt="Imagen 10">
 6.	Una vez instalado, volvemos a hacer el comando curl, descomprimimos el archivo con tar y entramos con cd al nuevo directorio:
 
@@ -112,12 +114,15 @@ sudo make prefix=/usr/local install
 <img src="Imágenes/12.png" alt="Imagen 12">
 <img src="Imágenes/13.png" alt="Imagen 13">
 9.	Elegimos el git que acabamos de instalar con "exec bash" y comprobamos que efectivamente tenemos la versión que queremos con version:
+
 ```
  exec bash
 ```
+
 ```
 git --version
 ```
+
 __Output__
 git version 2.29.3
 
@@ -126,35 +131,41 @@ Con Git instalado correctamente, ahora puede finalizar su configuración.
 
 ## Configuración de Git <a name="id3"></a>
 1.	Vamos a poner nuestro nombre de usuario y correo:
+
 ```
 git config --global user.name "Tu nombre"
 git config --global user.email "tuemail@dominio.com"
 ```
+
 <img src="Imágenes/15.png" alt="Imagen 15">
 2.	Comprobamos los elementos de la configuración:
 
 ```
 git config --list
 ```
+
 __Output__
 
 ```
 user.name=Tu nombre
 user.email=tuemail@dominio.com
 ```
+
 <img src="Imágenes/16.png" alt="Imagen 16">
 La información que ingresa se almacena en el archivo de configuración de Git. Tendrá la opción de editarlo manualmente con el editor de texto que prefiera (en este tutorial utilizaremos nano) como se muestra a continuación:
 
 ```
 nano ~/.gitconfig
 ```
+
 <img src="Imágenes/17.png" alt="Imagen 17">
+
 ``` 
-~/.gitconfig contents
 [user]
   name = Tu nombre
   email = tuemail@dominio.com
 ```
+
 <img src="Imágenes/18.png" alt="Imagen 18">
 
 Para salir del editor de texto pulse CTRL y X, luego Y y, a continuación, ENTER.
