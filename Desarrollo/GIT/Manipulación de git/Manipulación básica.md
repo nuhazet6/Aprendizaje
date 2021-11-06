@@ -1,8 +1,8 @@
-# Tarea 2: Manipulación de repositorios en Git
+# Manipulación básica de repositorios en Git
 
 ## Introducción
 
-EL objetivo del siguiente archivo es documentar la manipulación básica de repositorios en GIT.
+EL objetivo del siguiente documento es seguir paso a paso la manipulación básica de repositorios en GIT.
 
 ## Requisitos previos
 
@@ -35,9 +35,9 @@ EL objetivo del siguiente archivo es documentar la manipulación básica de repo
  ```
  <img src="Imágenes/2.png" alt="Imagen 2">
 
-### 3.Comprobar el estado del repositorio
+### 3.Comprobamos el estado del repositorio y creamos el índice
 
- - Comprobar el estado del repositorio.
+ - Comprobamos el estado del repositorio.
 
  ```
  git status
@@ -72,16 +72,16 @@ Ctrl+D
  Realizamos un commit con los últimos cambios realizados y volvemos a comprobar el estado del repositario.
 
 ```
-git commit -m "Añadido índice de la asignatura DPL."
+git commit -m "Añadido índice de la asignatura."
 git status
 ```
- <img src="Imágenes/1.png" alt="Imagen 1">
+ <img src="Imágenes/6.png" alt="Imagen 6">
 
 
 ### 5.Modificación de ficheros
 
  - Cambiar el fichero indice.txt para que contenga lo siguiente:
-   - Capítulo 1: Instalación de Git por el alumno XXX _(donde XXX es el nombre del alumno)_
+   - Capítulo 1: Instalación de Git por XXX _(donde XXX es tu nombre)_
    - Capítulo 2: Flujo de trabajo básico
    - Capítulo 3: Gestión de ramas
    - Capítulo 4: Repositorios remotos
@@ -90,7 +90,7 @@ git status
 
 ```
 cat > indice.txt
-Capítulo 1: Instalación de Git por el alumno XXX _(donde XXX es el nombre del alumno)_
+Capítulo 1: Instalación de Git por XXX _(donde XXX es el nombre)_
 Capítulo 2: Flujo de trabajo básico
 Capítulo 3: Gestión de ramas
 Capítulo 4: Repositorios remotos
@@ -99,18 +99,18 @@ git diff
 git add indice.txt
 git commit -m "Añadido los capitulos 3"
 ```
- <img src="Imágenes/1.png" alt="Imagen 1">
+ <img src="Imágenes/7.png" alt="Imagen 7">
 
 
 ### 6.Historial
 
  - Mostrar los cambios de la última versión del repositorio con respecto a la anterior.
- - Cambiar el mensaje del último commit por __Añadido el capitulo sobre gestión de ramas al índice.__
+ - Cambiar el mensaje del último commit por __Añadido los capítulos sobre gestión de ramas y respositorios remotos al índice.__
  - Volver a mostrar los últimos cambios del repositorio.
 
 ```
 git show
-git commit --amend -m "Añadido el capitulo sobre gestión de ramas al índice."
+git commit --amend -m "Añadido los capítulos sobre gestión de ramas y respositorios remotos al índice."
 git show
 ```
- <img src="Imágenes/1.png" alt="Imagen 1">
+ <img src="Imágenes/8.png" alt="Imagen 8">
