@@ -74,9 +74,11 @@ sudo apt install libz-dev libssl-dev libcurl4-gnutls-dev libexpat1-dev gettext c
 
 4.	Tras esto descargamos la versión específica de Git:
 Desde el sitio web del proyecto Git, podemos navegar a la lista de tarball disponible en https://mirrors.edge.kernel.org/pub/software/scm/git/ y descargar la versión que quiera utilizar.
+
 ```
 curl -o git.tar.gz https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.29.3.tar.gz
 ``` 
+
 <img src="Imágenes/9.png" alt="Imagen 9">
 5.	El error se debe a que tenemos que instalar el curl para usar el comando “curl” así que lo instalamos:
 ```
@@ -84,15 +86,19 @@ sudo snap install curl
 ```
 <img src="Imágenes/10.png" alt="Imagen 10">
 6.	Una vez instalado, volvemos a hacer el comando curl, descomprimimos el archivo con tar y entramos con cd al nuevo directorio:
+
 ```
 curl -o git.tar.gz https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.29.3.tar.gz 
 ```
+
 ```
 tar -zxf git.tar.gz
 ``` 
+
 ```
 cd git-*
 ``` 
+
 <img src="Imágenes/11.png" alt="Imagen 11">
 
 8.	Ahora creamos el paquete y lo instalamos:
