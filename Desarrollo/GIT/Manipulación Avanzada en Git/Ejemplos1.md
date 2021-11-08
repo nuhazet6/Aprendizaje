@@ -54,13 +54,13 @@ d. Mostrar las diferencias entre la última versión y dos versiones anteriores.
 
 
 ```
- > cat > capitulos/capitulo3.txt
+ 1. cat > capitulos/capitulo3.txt
  Git permite la creación de ramas lo que permite tener distintas versiones del mismo proyecto y trabajar de manera simultanea en ellas.
  Ctrl+D
- > git add .
- > git commit -m "Añadido capítulo 3."
- > git log
- > git diff <codigo hash de la primera version>..HEAD
+ 2. git add .
+ 3. git commit -m "Añadido capítulo 3."
+ 4. git log
+ 5. git diff <codigo hash de la primera version>..HEAD
 ```
 
 ## Ejercicio 4
