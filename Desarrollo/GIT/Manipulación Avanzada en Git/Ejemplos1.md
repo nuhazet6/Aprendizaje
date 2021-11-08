@@ -70,6 +70,7 @@ d. Mostrar las diferencias entre la última versión y dos versiones anteriores.
 ```
 <img src="Imágenes/4.png" alt="Imagen 4">
 <img src="Imágenes/5.png" alt="Imagen 5">
+
 ## Ejercicio 4
 
 - Creamos el fichero índice.txt con el texto "Indice de los capítulos, con conceptos avanzados de git"
@@ -88,6 +89,7 @@ d. Mostrar las diferencias entre la última versión y dos versiones anteriores.
  7. git annotate indice.txt
  ```
 <img src="Imágenes/6.png" alt="Imagen 6">
+
 ## Ejercicio 5
 
 Creamos una nueva rama bibliografía y mostramos las ramas del repositorio.
@@ -153,6 +155,7 @@ Ctrl+D
 <img src="Imágenes/10.png" alt="Imagen 10">
 
 ## Ejercicio 9
+
  - Crear la rama bibliografía.
  - Cambiar a la rama bibliografía.
  - Cambiar el fichero bibliografia.txt para que contenga las siguientes referencias:
