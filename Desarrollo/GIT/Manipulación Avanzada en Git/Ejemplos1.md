@@ -29,7 +29,11 @@ Ctrl+D
 
 ## Ejercicio 2
 
-a. Crear el fichero capitulo2.txt en la carpeta capítulos con el texto "El flujo de trabajo básico con Git consiste en: 1- Hacer cambios en el repositorio. 2- Añadir los cambios a la zona de intercambio temporal. 3- Hacer un commit de los cambios".
+a. Crear el fichero capitulo2.txt en la carpeta capítulos con el siguiente texto: 
+"El flujo de trabajo básico con Git consiste en: 
+1- Hacer cambios en el repositorio. 
+2- Añadir los cambios a la zona de intercambio temporal. 
+3- Hacer un commit de los cambios."
 b. Añadir los cambios a la zona de intercambio temporal.
 c. Hacer un commit de los cambios con el mensaje _Añadido capítulo 2._
 d. Mostrar las diferencias entre la última versión y dos versiones anteriores.
