@@ -5,6 +5,7 @@ git clone https://github.com/jpexposito/libro
 cd libro
 ```
 <img src="Imágenes/1.png" alt="Imagen 1">
+
 ## Ejercicio 1
 
 1. Mostramos el historial del repositorio
