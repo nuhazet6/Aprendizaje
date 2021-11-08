@@ -4,80 +4,55 @@ Para hacer esta actividad primero haremos un clon del repositorio "https://githu
 git clone https://github.com/jpexposito/libro
 cd libro
 ```
-
+<img src="Imágenes/1.png" alt="Imagen 1">
 ## Ejercicio 1
 
-- Mostrar el historial de cambios del repositorio.
-- Crear la carpeta capítulos y crear dentro de ella el fichero capitulo1.txt con el siguiente texto.
-
-```console
-Git es un sistema de control de versiones ideado por Linus Torvalds.
+1. Mostramos el historial del repositorio
+2. creamos carpeta capítulos y creamos dentro el fichero capitulo1.txt con el texto "Git es un sistema de control de versiones ideado por Linus Torvalds".
+3. Añadimos los cambios a la zona de intercambio temporal.
+4. Hacemos un commit de los cambios con el mensaje Añadido capítulo 1.
+5. Volvemos a mostra el historial.
 ```
-- Añadir los cambios a la zona de intercambio temporal.
-- Hacer un commit de los cambios con el mensaje _Añadido capítulo 1._
-- Volver a mostrar el historial de cambios del repositorio.
-
-<details>
-  <summary>PULSA PARA VER LA SOLUCIÓN:</summary>
-
- ```console
- > git log
- > mkdir capitulos
- > cat > capitulos/capitulo1.txt
- Git es un sistema de control de versiones ideado por Linus Torvalds.
- Ctrl+D
- > git add .
- > git commit -m "Añadido capítulo 1."
- > git log
- ```
-
-</details>
+1. git log
+2. mkdir capitulos
+cat > capitulos/capitulo1.txt
+Git es un sistema de control de versiones ideado por Linus Torvalds.
+Ctrl+D
+3. git add .
+4. git commit -m "Añadido capítulo 1."
+5. git log
+```
+<img src="Imágenes/2.png" alt="Imagen 2">
 
 ## Ejercicio 2
 
- - Crear el fichero capitulo2.txt en la carpeta capítulos con el siguiente texto.
+a. Crear el fichero capitulo2.txt en la carpeta capítulos con el texto "El flujo de trabajo básico con Git consiste en: 1- Hacer cambios en el repositorio. 2- Añadir los cambios a la zona de intercambio temporal. 3- Hacer un commit de los cambios".
+b. Añadir los cambios a la zona de intercambio temporal.
+c. Hacer un commit de los cambios con el mensaje _Añadido capítulo 2._
+d. Mostrar las diferencias entre la última versión y dos versiones anteriores.
 
-```console
-El flujo de trabajo básico con Git consiste en: 1- Hacer cambios en el repositorio. 2- Añadir los cambios a la zona de intercambio temporal. 3- Hacer un commit de los cambios.
 ```
-
- - Añadir los cambios a la zona de intercambio temporal.
- - Hacer un commit de los cambios con el mensaje _Añadido capítulo 2._
- - Mostrar las diferencias entre la última versión y dos versiones anteriores.
-
-<details>
-  <summary>PULSA PARA VER LA SOLUCIÓN:</summary>
-
-```console
- > cat > capitulos/capitulo2.txt
+ a. cat > capitulos/capitulo2.txt
  El flujo de trabajo básico con Git consiste en:
  1- Hacer cambios en el repositorio.
  2- Añadir los cambios a la zona de intercambio temporal.
  3- Hacer un commit de los cambios.
  Ctrl+D
- > git add .
- > git commit -m "Añadido capítulo 2."
- > git diff HEAD~2..HEAD
+ b. git add .
+ c. git commit -m "Añadido capítulo 2."
+ d. git diff HEAD~2..HEAD
 ```
-
-</details>
+<img src="Imágenes/3.png" alt="Imagen 3">
 
 ## Ejercicio 3
 
- - Crear el fichero capitulo3.txt en la carpeta capítulos con el siguiente texto.
+1. Crear el fichero capitulo3.txt en la carpeta capítulos con el texto "Git permite la creación de ramas lo que permite tener distintas versiones del mismo proyecyo y trabajar de manera simultanea en ellas".
+2. Añadir los cambios a la zona de intercambio temporal.
+3. Hacer un commit de los cambios con el mensaje _Añadido capítulo 3._
+4. Mostrar las diferencias entre la primera y la última versión del repositorio.
 
-```console
-Git permite la creación de ramas lo que permite tener distintas versiones del mismo proyecto y trabajar de manera simultanea en ellas.
+
 ```
-
- - Añadir los cambios a la zona de intercambio temporal.
- - Hacer un commit de los cambios con el mensaje _Añadido capítulo 3._
- - Mostrar las diferencias entre la primera y la última versión del repositorio.
-
-<details>
-  <summary>PULSA PARA VER LA SOLUCIÓN:</summary>
-
-```console
  > cat > capitulos/capitulo3.txt
  Git permite la creación de ramas lo que permite tener distintas versiones del mismo proyecto y trabajar de manera simultanea en ellas.
  Ctrl+D
@@ -86,8 +61,6 @@ Git permite la creación de ramas lo que permite tener distintas versiones del m
  > git log
  > git diff <codigo hash de la primera version>..HEAD
 ```
-
-</details>
 
 ## Ejercicio 4
 
